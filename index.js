@@ -5,6 +5,11 @@ var $ = require("jquery");
 
 window.setInterval(refreshMsg, 5000)
 function refreshMsg(){
+  $('div.message').remove()
+  console.log("Time :")
+  getMessages()
+}
+function getMessages(){
   $.get("http://localhost:3000/v1/messages")
   .done(function(data){
     for (var i = 0; i < data.messages.length; i++){
