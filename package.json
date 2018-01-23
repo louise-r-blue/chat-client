@@ -26,7 +26,7 @@
   "homepage": "https://github.com/louise-r-blue/chat-client",
   "dependencies": {
     "hyperscript": "^1.4.7",
-    "jquery": "^2.2.1"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "browserify": "^10.0.0",
